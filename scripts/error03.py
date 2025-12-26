@@ -1,3 +1,7 @@
+# this is a simple script that performs a few calculations and functions from a menu.
+# This script handles basic errors whenever there is an incorrect option entered
+
+
 import logging
 
 #setup logging (errors will be saved to errors1.log)
@@ -71,3 +75,4 @@ def error_playground():
 if __name__ == "__main__":
 
     error_playground()
+
