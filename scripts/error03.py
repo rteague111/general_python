@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(
     filename="errors1.log",
     level=logging.ERROR,
-    format="%(acstime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 #defining class for the choice menu; the numbers represent user choice
@@ -35,7 +35,7 @@ def error_playground():
             elif choice == "3":
                 d = {"name": "Fred", "language": "Python"}
                 key = input("Enter the key to look up: ")
-                print(f"Value {f[key]}")
+                print(f"Value {d[key]}")
 
             elif choice == "4":
                 while True:
@@ -69,4 +69,5 @@ def error_playground():
 
 #run the playground
 if __name__ == "__main__":
+
     error_playground()
