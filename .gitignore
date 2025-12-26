@@ -1,0 +1,76 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+
+# ======================
+# SQLite / Databases
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# Optional: WAL / journal files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ======================
+# Data / Outputs
+# ======================
+data/raw/
+data/processed/
+data/tmp/
+
+# Generated reports / plots
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+!.vscode/extensions.json
+
+# ======================
+# Logs / Temp
+# ======================
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ======================
+# OS / Misc
+# ======================
+.idea/
+.cache/
