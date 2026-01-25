@@ -56,6 +56,17 @@ Future work may include:
 - Basic classification and regression models
 - Moving from SQLite to PostgreSQL or cloud databases for practice
 
+
+## Feedback & Usage
+
+If you're using this project, I'd love to hear from you! Whether you've:
+- Found it helpful for learning
+- Used it in your own work
+- Have suggestions for improvements
+- Found bugs or issues
+
+Feel free to reach out by opening an issue or contacting me at [rteague111@gmail.com].
+
 ---
 
 ## Notes
